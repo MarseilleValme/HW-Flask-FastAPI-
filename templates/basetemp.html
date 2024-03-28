@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {% block title %}
+            default title
+            {% endblock %}
+    </title>
+</head>
+<body>
+    <h1>HEADER</h1>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="./cloth.html">Одежда</a>
+        <a href="./jacket.html">Куртки</a>
+        <a href="./shoes.html">Обувь</a>
+    </nav>
+
+    {% block body_content %}
+        no data
+    {% endblock %}
+
+    <h1>FOOTER</h1>
+</body>
+</html>
