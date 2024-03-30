@@ -10,16 +10,16 @@ def index():
 
 
 @app.route('/cloth/')
-def about():
+def cloth():
     return render_template('cloth.html')
 
 
 @app.route('/jacket/')
-def contacts():
+def jacket():
     return render_template('jacket.html')
 
 @app.route('/shoes/')
-def contacts():
+def shoes():
     return render_template('shoes.html')
 
 
