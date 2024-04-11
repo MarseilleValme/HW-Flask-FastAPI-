@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>
+        {% block title %}
+            Homework 2
+        {% endblock %}
+    </title>
+</head>
+<body>
+<div class="container-fluid">
+    <ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/logout/" class="nav-link">Выйти</a></li>
+    </ul>
+    {% block content %}
+        Страница не заполнена
+    {% endblock %}
+</div>
+</body>
+</html>
